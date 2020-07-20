@@ -1,13 +1,14 @@
 #include <iostream>
+#include <algorithm>
 
 using namespace std;
 
 int main ()
 {
-    int x1, y1, x2, y2;
-    cin >> x1 >> y1 >> x2 >> y2;
+    int a, b, c;
+    cin >> a >> b >> c;
 
-    cout << (((x1 == x2) || (y1 == y2)) ? "YES" : "NO");
+    cout << max (max (a, b), c);
 
-	return 0;
+    return 0;
 }
