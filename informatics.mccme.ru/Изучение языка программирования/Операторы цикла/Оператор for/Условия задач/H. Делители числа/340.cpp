@@ -7,7 +7,7 @@ int main ()
 	int x;
 	cin >> x;
 
-	for (int i = 1; i <= x; i++)
+	for (int i (1); i <= x; i++)
 	{
 		if (!(x % i))
 		{

@@ -8,7 +8,7 @@ int main ()
 	int a, b, c;
 	cin >> a >> b >> c;
 
-	int s = abs (a % 2) + abs (b % 2) + abs (c % 2);
+	int s (abs (a % 2) + abs (b % 2) + abs (c % 2));
 
 	cout << (((s) && (s != 3)) ? "YES" : "NO");
 

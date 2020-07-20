@@ -9,7 +9,7 @@ int main ()
 
 	for (int i (0); i <= 1000; i++)
 	{
-		int ii = i * i;
+		int ii (i * i);
 		if (a * i * ii + b * ii + c * i == -d)
 		{
 			cout << i << ' ';

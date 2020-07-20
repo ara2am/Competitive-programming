@@ -15,7 +15,7 @@ int main ()
         cout << "NO";
     } else
     {
-        int x = -b / a;
+        int x (-b / a);
 
         if ((c) && (!(d % c)) && (-d / c == x))
         {

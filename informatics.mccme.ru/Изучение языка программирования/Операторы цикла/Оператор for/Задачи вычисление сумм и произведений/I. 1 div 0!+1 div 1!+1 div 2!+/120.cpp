@@ -14,7 +14,7 @@ int main ()
 
 	float result (1);
 	int factorial (1);
-	for (int i = 1; i <= n; i++)
+	for (int i (1); i <= n; i++)
 	{
 		factorial *= i;
 		result += 1. / factorial;

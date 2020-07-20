@@ -7,7 +7,7 @@ int main ()
 	int a, b, c, d;
 	cin >> a >> b >> c >> d;
 
-	for (int i = a; i <= b; i++)
+	for (int i (a); i <= b; i++)
 	{
 		if (i % d == c)
 		{

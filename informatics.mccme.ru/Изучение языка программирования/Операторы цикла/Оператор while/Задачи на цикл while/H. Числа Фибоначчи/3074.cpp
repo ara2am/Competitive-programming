@@ -10,7 +10,7 @@ int main ()
 	int f1 (0), f2 (1), i (0);
 	while (i < n)
 	{
-		int tmp = f1 + f2;
+		int tmp (f1 + f2);
 		f1 = f2;
 		f2 = tmp;
 		i++;

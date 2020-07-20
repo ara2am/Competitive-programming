@@ -8,7 +8,7 @@ int main ()
 	float a, b, c;
 	cin >> a >> b >> c;
 
-	float d = b * b - 4 * a * c;
+	float d (b * b - 4 * a * c);
 	if (d > 0)
 	{
 		a *= 2;

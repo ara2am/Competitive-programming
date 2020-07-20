@@ -7,7 +7,7 @@ int main ()
 	int n;
 	cin >> n;
 
-	int a = n / 60;
+	int a (n / 60);
 	n %= 60;
 	if (n > 34)
 	{
@@ -15,7 +15,7 @@ int main ()
 		a++;
 	}
 
-	int b = n / 10;
+	int b (n / 10);
 	n %= 10;
 	if (n == 9)
 	{

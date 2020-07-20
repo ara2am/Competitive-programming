@@ -10,7 +10,7 @@ int main ()
 
 	float result (1);
 	float pow (a);
-	for (int i = 0; i < n; i++)
+	for (int i (0); i < n; i++)
 	{
 		result += pow;
 		pow *= a;

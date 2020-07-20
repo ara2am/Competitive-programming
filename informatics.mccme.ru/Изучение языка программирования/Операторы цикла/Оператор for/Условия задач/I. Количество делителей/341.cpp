@@ -8,8 +8,8 @@ int main ()
 	int x;
 	cin >> x;
 
-	int result = 0;
-	for (int i = 1; i <= sqrt (x); i++)
+	int result (0);
+	for (int i (1); i <= sqrt (x); i++)
 	{
 		if (!(x % i))
 		{

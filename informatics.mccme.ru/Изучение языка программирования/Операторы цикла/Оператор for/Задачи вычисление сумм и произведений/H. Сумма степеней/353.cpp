@@ -9,7 +9,7 @@ int main ()
 
 	int result (1);
 	int pow2 (2);
-	for (int i = 1; i <= n; i++)
+	for (int i (1); i <= n; i++)
 	{
 		result += pow2;
 		pow2 *= 2;
