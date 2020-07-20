@@ -9,5 +9,5 @@ int main ()
 
     cout << (((x1 == x2) || (y1 == y2)) ? "YES" : "NO");
 
-	return 0;
+    return 0;
 }

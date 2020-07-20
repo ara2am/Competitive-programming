@@ -13,5 +13,5 @@ int main ()
 
     cout << ((((dx == 1) && (dy == 2)) || ((dx == 2) && (dy == 1))) ? "YES" : "NO");
 
-	return 0;
+    return 0;
 }

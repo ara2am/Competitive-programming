@@ -10,5 +10,5 @@ int main ()
 
     cout << ((abs (x1 - x2) == abs (y1 - y2)) ? "YES" : "NO");
 
-	return 0;
+    return 0;
 }
