@@ -1,0 +1,29 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main ()
+{
+	vector<int> n;
+	int a;
+
+	while (cin >> a)
+	{
+		n.push_back (a);
+	}
+
+	a = n[0];
+	for (int i (1); i < n.size (); i++)
+	{
+		swap (a, n[i]);
+	}
+	swap (a, n[0]);
+
+	for (int i (0); i < n.size (); i++)
+	{
+		cout << n[i] << ' ';
+	}
+
+	return 0;
+}
