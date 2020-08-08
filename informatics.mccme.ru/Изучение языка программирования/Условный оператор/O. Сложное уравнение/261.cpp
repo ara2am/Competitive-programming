@@ -4,26 +4,18 @@ using namespace std;
 
 int main ()
 {
-    int a, b, c, d;
+    int a, b, c, d, x;
     cin >> a >> b >> c >> d;
 
     if ((!a) && (!b))
     {
         cout << "INF";
-    } else if ((!a) || (b % a))
+    } else if ((a) && (!(b % a)) && ((x = -b / a) * c + d))
     {
-        cout << "NO";
+        cout << x;
     } else
     {
-        int x (-b / a);
-
-        if ((c) && (!(d % c)) && (-d / c == x))
-        {
-            cout << "NO";
-        } else
-        {
-            cout << x;
-        }
+        cout << "NO";
     }
 
     return 0;
