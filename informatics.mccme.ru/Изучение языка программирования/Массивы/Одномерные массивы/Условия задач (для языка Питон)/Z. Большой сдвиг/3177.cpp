@@ -21,7 +21,7 @@ int main ()
 
 	int k;
 	cin >> k;
-	k %= arr.size ();
+	k %= (int) arr.size ();
 
 	rotate (arr.begin (), ((k > 0) ? arr.end () : arr.begin ()) - k, arr.end ());
 
