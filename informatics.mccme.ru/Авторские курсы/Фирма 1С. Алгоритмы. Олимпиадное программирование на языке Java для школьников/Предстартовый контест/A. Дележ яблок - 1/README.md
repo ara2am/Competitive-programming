@@ -1,0 +1,1 @@
+This task is the copy of [LINK](https://github.com/ara2am/Competitive-programming/blob/master/informatics.mccme.ru/Изучение%20языка%20программирования/Ввод-вывод,%20оператор%20присваивания,%20арифметические%20операции/C.%20Дележ%20яблок%20-%201/2938.cpp)

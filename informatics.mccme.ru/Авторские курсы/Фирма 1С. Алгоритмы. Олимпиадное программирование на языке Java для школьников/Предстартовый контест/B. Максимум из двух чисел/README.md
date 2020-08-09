@@ -1,0 +1,1 @@
+This task is the copy of [LINK](https://github.com/ara2am/Competitive-programming/blob/master/informatics.mccme.ru/Изучение%20языка%20программирования/Условный%20оператор/A.%20Максимум%20из%20двух%20чисел/292.cpp)
